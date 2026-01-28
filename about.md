@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Rohit and I'm a third year at NYU majoring in CS and Finance.
 
 ### More Information
 
