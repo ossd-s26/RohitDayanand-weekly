@@ -1,0 +1,30 @@
+---
+layout: post
+title: Week 8
+---
+
+## Blog Post Week 8
+
+The Cathedral and the Bazaar article got me thinking about a conversation that I had with a friend who is in the film department at NYU. He had an idea for building out a small film-related startup, and he wanted to ask me to do the technical work. This made me think quite a bit about the value of my labor in the workspace, especially given the prevalence of AI coding tools, but also what it really means for software to be "built".
+
+I told him that he should use tools like Claude Code, Codex, et cetera to help build out the MVP and prototype to show to VC funds, which is what he did. He was amazed, and he's just like, "Wow, what is the role for engineers today?" 
+
+<!--more-->
+
+Maybe it was a little bit of ego, or also just fear of being replaced. I said back, "This isn't the role of engineers. Building a prototype is simple. Maintaining service across this platform/program, dealing with the interleaving and complexity that arises with larger software products, is the reason why these departments have such large software engineering departments to begin with."
+
+I did also think that the Cathedral and the Bazaar helps prove why the value, from a societal standpoint, of open source is there in terms of duplicated code. The part of that article that was the most influential to me was how senior developers with such surety are able to say it's not the creation of the product that is the complex part, but it is the continual maintenance of said product and the updating of documentation to make it easier to use that codebase, being able to deal with versioning and point releases. That is the main crux of how our entire economic structure is flawed in the way that we represent that. From the perspective of VC funds investing in my friend's film project, they see this prototype; they're like, "Wow, it's a great proof of concept," but he's not incentivized really to think about the maintenance of this product or service and the necessary service level objectives that the users of his product would have to have.
+
+That got me thinking. It's because it's much more flashy to show the product than it is to show that you are capable of maintaining it for a long enough time. This distorted incentive structure also makes people think that Codex, Claude, etc. is going to replace all engineers, when in reality it just changes what the demands for maintenance are. Yes, of course it makes prototyping easier; in some ways it does help improve developer productivity, but in a lot of other ways it doesn't change the reality for a lot of enterprise developers. 
+
+The general React developer has probably passed their heyday and the marginal cost of creating software has gone down, SaaS economics still seem to apply because the ability to maintain code and own versioning was always the most expensive part of development. 
+
+In terms of progress on the project, I managed to get a PR in to add in another provider. That PR has not been merged. Instead, I pinged one of the maintainers. They seem to be sick for the last three days.
+
+What I've gone ahead and done is I've started commenting on discussion posts to share my thoughts on certain PRs. I now have a good understanding of the architecture, and I also just want to get more creative, more input on what people are thinking. 
+There are two discussion posts where I'm identifying a lot of activity by other maintainers but also by other people, which tells me this is the type of place to put a PR in. It's going to be a tougher PR because there are already other people who have posted and and were rejected. What I'm thinking is maybe even scope changes to them, helping them deal with their merge conflicts, helping them deal with issues there. There could be a way to get my work in. 
+I think we're on track with the rest of the class. One of our collaborators got a PR actually merged into main, while most of the class, in general, is, I think, relative to me, similar; they've gotten their first PR in or worked on documentation. It tells me that maybe I still need to kind of step up the game a little bit.
+
+In terms of other people's contributions, I thought, in general, a lot of the class understands the value of documentation. In terms of the standard that I have for myself for a PR, it's something that actually adds functionality to an end user, not just other developers, because that's my core goal here and that's the reason why I took this class. I was hoping to see more people who would discuss the process of adding functionality, as opposed to necessarily improving developer experience.
+
+I understand that a lot of the projects that my teammates or my classmates are contributing to, for example pandas, p3, etc., are well-maintained repositories with hundreds of other maintainer and senior developers who are contributing. It's a difficult standard to ask anyone, much rather kind of undergraduate CS students, to create quality contributions. I think, from the economic standpoint of this class, it would be nice to see, I guess, more technical or more feature-driven contributions being weighted to the grade, rather than PRs merged in or lines of code 
