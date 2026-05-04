@@ -1,0 +1,14 @@
+---
+layout: post
+title: Week 14
+---
+
+## Blog Post Week 14
+Presented Monday. There's something that hits different about actually standing up and talking through something you've been heads-down building for weeks.
+
+<!--more-->
+
+Honest self-assessment: could've left more technical detail on the cutting room floor. The agent loop explanation probably had one too many layers for the room (especially around Leo’s part with the channel bus, coordinator). But I think we got the core value prop across clearly enough which is what the system does, why it matters, what problem it's actually solving. 
+On the PR front: working on a PR to get LangSmith well documented (others have commented telemetry doesn’t work, I’m not able to reproduce it), but maintainers are opinionated about the approach which me and Alan found. I’m planning on just shipping better documentation for now to get LangSmith up and running as our original goals for OpenTelemetry may have been too ambitious. 
+
+    
